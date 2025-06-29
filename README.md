@@ -25,11 +25,9 @@ Welcome to **Emotion Detection**, a powerful deep learning project that uses a h
 
 📊 Trained with:
 
-Balanced class weights
-
-Categorical cross-entropy loss
-
-Accuracy & loss tracked over epochs
+- Balanced class weights
+- Categorical cross-entropy loss
+- Accuracy & loss tracked over epochs
 
 
 ---
@@ -55,6 +53,11 @@ Accuracy & loss tracked over epochs
 
 ---
 
+🧠 FUN FACT
+The model doesn’t just memorize — it learns the feelings behind words, even understanding sarcasm and negation with enough data!
+
+---
+
 ## 🚀 How to Run
 
 ```bash
@@ -67,9 +70,5 @@ pip install -r requirements.txt
 
 # 3. Run the training notebook
 jupyter notebook train_evaluate.ipynb
-
 ---
-
-🧠 FUN FACT
-The model doesn’t just memorize — it learns the feelings behind words, even understanding sarcasm and negation with enough data!
 
