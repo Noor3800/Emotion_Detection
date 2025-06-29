@@ -1,4 +1,4 @@
-# 😄😢 EMOTION DETECTION - CNN + BiLSTM + Word2Vec 💬🧠  
+# 😊EMOTION DETECTION - CNN + BiLSTM + Word2Vec 💬🧠  
 🔍 *Can a machine understand human emotions from just a sentence? Let’s find out!*
 
 Welcome to **Emotion Detection**, a powerful deep learning project that uses a hybrid model of **CNN** and **BiLSTM** to detect emotions from text with high accuracy! It’s trained on labeled text data and powered by **Word2Vec** embeddings to truly *feel* the meaning of your words.
@@ -17,11 +17,20 @@ Welcome to **Emotion Detection**, a powerful deep learning project that uses a h
 ---
 
 ## ⚙️ How It Works  
-### 🧪 Neural Network Pipeline:
-- 🧱 **Embedding Layer:** Uses pre-trained **Word2Vec** vectors  
-- 🔎 **CNN Layer:** Detects patterns (like n-grams)  
+### 🧪 Hybrid Neural Network Model:
+- 🧱 **Embedding Layer:** Uses pre-trained **Word2Vec** vectors and turns words into semantic vectors
+- 🔎 **CNN Layer:** Extracts local text features (n-grams, patterns) 
 - 🔁 **BiLSTM Layer:** Reads text in both directions for better context  
 - 🧠 **Dense Layers:** Final emotion prediction (6-class classification)
+
+📊 Trained with:
+
+Balanced class weights
+
+Categorical cross-entropy loss
+
+Accuracy & loss tracked over epochs
+
 
 ---
 
@@ -38,5 +47,29 @@ Welcome to **Emotion Detection**, a powerful deep learning project that uses a h
 
 ---
 
-## 📁 Project Structure
+
+## 📊 Results
+✅ **Accuracy:** ~93.75%  
+📉 **Loss:** Significantly reduced with training  
+📈 **Visualization:** Accuracy & loss curves included
+
+---
+
+## 🚀 How to Run
+
+```bash
+# 1. Clone this repository
+git clone https://github.com/Noor3800/Emotion_Detection.git
+cd EmotionDetection
+
+# 2. Install requirements
+pip install -r requirements.txt
+
+# 3. Run the training notebook
+jupyter notebook train_evaluate.ipynb
+
+---
+
+🧠 FUN FACT
+The model doesn’t just memorize — it learns the feelings behind words, even understanding sarcasm and negation with enough data!
 
